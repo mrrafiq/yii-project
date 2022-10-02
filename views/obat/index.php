@@ -10,7 +10,7 @@ use yii\grid\GridView;
 /** @var app\models\ObatSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Obats';
+$this->title = 'Obat';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="obat-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Obat', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Tambah Obat', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

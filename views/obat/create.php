@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var app\models\Obat $model */
 
-$this->title = 'Create Obat';
-$this->params['breadcrumbs'][] = ['label' => 'Obats', 'url' => ['index']];
+$this->title = 'Tambah Data Obat';
+$this->params['breadcrumbs'][] = ['label' => 'Obat', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="obat-create">

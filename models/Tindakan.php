@@ -46,9 +46,9 @@ class Tindakan extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'pasien_id' => 'pasien_id',
-            'obat_id' => 'obat_id',
-            'keterangan' => 'keterangan',
+            'pasien_id' => 'ID Pasien',
+            'obat_id' => 'ID Obat',
+            'keterangan' => 'Keterangan',
         ];
     }
 
